@@ -1,12 +1,73 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Whatsapp UI</title>
     <link href="./assets/css/output.css" rel="stylesheet">
 </head>
-<body>
-    <h1 class="text-red-500">Whatsapp UI</h1>
+
+<body class="m-4">
+
+    <section class="py-3">
+        <div class="flex items-center justify-between ">
+            <p class="text-green-500  text-xl text font-semibold">WhatsApp</p>
+            <div class="flex space-x-3">
+                <svg xmlns="http://www.w3.org/2000/svg" width="28" height="32" viewBox="0 0 24 24 ">
+                    <path d="M2 7V2h5v2H4v3zm0 15v-5h2v3h3v2zm15 0v-2h3v-3h2v5zm3-15V4h-3V2h5v5zm-2.5 
+            10.5H19V19h-1.5zm0-3H19V16h-1.5zM16 16h1.5v1.5H16zm-1.5 1.5H16V19h-1.5zM13 
+            16h1.5v1.5H13zm3-3h1.5v1.5H16zm-1.5 1.5H16V16h-1.5zM13
+             13h1.5v1.5H13zm6-8v6h-6V5zm-8 8v6H5v-6zm0-8v6H5V5zM9.5 17.5v-3h-3v3zm0-8v-3h-3v3zm8 0v-3h-3v3z" />
+                </svg>
+                <svg xmlns="http://www.w3.org/2000/svg" width="28" height="32" viewBox="0 0 24 24">
+                    <path d="M12 17.5q1.875 0 3.188-1.312T16.5 13t-1.312-3.187T12 8.5T8.813 9.813T7.5 13t1.313 3.188T12 17.5m0-2q-1.05 0-1.775-.725T9.5 13t.725-1.775T12 10.5t1.775.725T14.5 13t-.725 1.775T12 15.5M4 21q-.825 0-1.412-.587T2 19V7q0-.825.588-1.412T4 5h3.15L9 3h6l1.85 
+            2H20q.825 0 1.413.588T22 7v12q0 .825-.587 1.413T20 21zm0-2h16V7h-4.05l-1.825-2h-4.25L8.05 7H4zm8-6" />
+                </svg>
+
+                <svg xmlns="http://www.w3.org/2000/svg" width="28" height="32" viewBox="0 0 24 24">
+                    <path
+                        d="M12 10c-1.1 0-2 .9-2 2s.9 2 2 2s2-.9 2-2s-.9-2-2-2m0-6c-1.1 0-2 .9-2 2s.9 2 2 2s2-.9 2-2s-.9-2-2-2m0 12c-1.1 0-2 .9-2 2s.9 2 2 2s2-.9 2-2s-.9-2-2-2" />
+                </svg>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="bg-neutral-200  rounded-full flex items-center space-x-2 pl-2 ">
+            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24"
+            class="w-6">
+                <path fill="currentColor" d="M9.5 16q-2.725 0-4.612-1.888T3 9.5t1.888-4.612T9.5 3t4.613 1.888T16 9.5q0 1.1-.35 
+                2.075T14.7 13.3l5.6 5.6q.275.275.275.7t-.275.7t-.7.275t-.7-.275l-5.6-5.6q-.75.6-1.725.95T9.5 
+                16m0-2q1.875 0 3.188-1.312T14 9.5t-1.312-3.187T9.5 5T6.313 6.313T5 9.5t1.313 3.188T9.5 14" />
+            </svg>
+            <p>Search...</p>
+        </div>
+
+    </section>
+    <section class="py-3" >
+        <div class=" flex justify-items-stretch space-x-2">
+            <div class=" bg-neutral-200 rounded-full pl-3 pr-3 text-sm ">
+                <button> All <button>
+            </div>
+
+            <div class=" bg-neutral-200 rounded-full pl-3 pr-3 text-sm ">
+                <button>Unread</button>
+            </div>
+
+            <div class=" bg-neutral-200 rounded-full pl-3 pr-3 text-sm ">
+                <button>Favourites</button>
+            </div>
+
+            <div class="bg-neutral-200 rounded-full pl-3 pr-3 text-sm ">
+                <button>Groups</button>
+            </div>
+        </div>
+
+    </section>
 </body>
+
 </html>
+
+
+<!-- npx tailwindcss -i ./assets/css/main.css  -o ./assets/css/output.css --watch -->
+
